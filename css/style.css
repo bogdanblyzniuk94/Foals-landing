@@ -25,6 +25,12 @@ header{
 }
 .parag{
     margin: 0 30px;
+    color: #e0e0e0;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none;
 }
 .parag:hover{
     background-color: #ff3f40;
@@ -94,7 +100,7 @@ header{
     height: 320px;
     padding-right: 0%;
 }
-.section2{
+#section6{
     display: flex;
     padding: 20px 20px 0px 20px;
     height: 470px;
@@ -138,7 +144,7 @@ header{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 20px;
 }
-.section3{
+#section2{
     display: flex;
     background-color: #eeeaea;
     align-items: center;
@@ -147,7 +153,7 @@ header{
     font-weight: bold;
     font-size: 50pt;
 }
-.section4{
+.section3{
     display: flex;
     padding: 20px 20px 0px 20px;
     height: 700px;
@@ -159,7 +165,7 @@ header{
 .cover{
     padding: 10px 25px;
 }
-.section5{
+#section4{
     display: flex;
     background-color: #eeeaea;
     align-items: center;
@@ -168,7 +174,7 @@ header{
     font-weight: bold;
     font-size: 50pt;
 }
-.section6{
+.section5{
     display: flex;
     padding: 20px 5px 0px 5px;
     height: 530px;
@@ -260,7 +266,7 @@ hr{
     width: 560px;
     margin: 0px 20px;
 }
-.section9{
+#section9{
     display: flex;
     padding: 20px 5px 5px 5px;
     padding-left: 10px;
@@ -281,6 +287,9 @@ hr{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 20px;
     margin-right: 20px;
+}
+.adresstext{
+    padding: 100px 0px 0px 20px;
 }
 .namemail{
     display: flex;
