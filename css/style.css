@@ -6,8 +6,8 @@ body{
     width: 100%;
     margin: 0 auto;
 }
-header{
-    background-color: #313030;
+#header{
+    background-color: #221d1d;
     height: 90px;
     display: flex;
     justify-content: center;
@@ -17,11 +17,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #221d1d;
     color: #e0e0e0;
     list-style-type: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 14pt;
+    position: fixed;
+    margin: 0 auto;
 }
 .parag{
     margin: 0 30px;
@@ -102,11 +107,13 @@ header{
 }
 #section6{
     display: flex;
+    margin-top: 90px;
     padding: 20px 20px 0px 20px;
     height: 470px;
     background-color: #fff;
     justify-content: space-around;
     background: url(../img/foalsbackgroundprovide.jpg) no-repeat;
+    background-position-y: 89px;
 }
 .organization_provide{
     font-family: 'Open Sans', sans-serif;
@@ -152,6 +159,8 @@ header{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 50pt;
+    height: 400px;
+    padding-top: 90px;
 }
 .section3{
     display: flex;
@@ -173,6 +182,7 @@ header{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 50pt;
+    padding-top: 90px;
 }
 .section5{
     display: flex;
@@ -240,7 +250,7 @@ header{
     display: flex;
     padding: 20px 100px 5px 5px;
     padding-left: 10px;
-    height: 230px;
+    height: 320px;
     background-color: #f5f0dd;
     flex-direction: column;
     align-items: flex-end;
@@ -270,7 +280,7 @@ hr{
     display: flex;
     padding: 20px 5px 5px 5px;
     padding-left: 10px;
-    height: 500px;
+    height: 608px;
     background-color: #dccbcb;
     justify-content: space-between;
 }
